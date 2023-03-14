@@ -29,7 +29,7 @@ record.write(data_format)
 record2.write(data_format)
 
 start_time = datetime.datetime.now()
-end_time = start_time + datetime.timedelta(seconds=60)
+end_time = start_time + datetime.timedelta(hours=6)
 count= 0
 
 while datetime.datetime.now() < end_time:
@@ -56,9 +56,9 @@ while datetime.datetime.now() < end_time:
     formatted3= now_str,v2,c2,e2
     formatted4= str(",".join(formatted3))
     record2.write("\n"+formatted4)
-    time.sleep(1)
+    time.sleep(2)
     print("flag",count)
-    count= count+1
+    count= count+2
     
 record.close()
 record2.close()
