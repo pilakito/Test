@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python3
-"""
-BLC Communication and Security Systems
-AYPOS Project PDU Data Recording
-
-author: @Burak Gumus
-"""
 
 import subprocess
 import datetime
